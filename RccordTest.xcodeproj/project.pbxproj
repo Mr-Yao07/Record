@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5DD5E721253C6E00913230 /* RecordWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5DD5E621253C6E00913230 /* RecordWindow.m */; };
+		0B5DD5EA21253D1200913230 /* RecordTimerBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5DD5E921253D1200913230 /* RecordTimerBtn.m */; };
+		0B5DD5F0212585E700913230 /* RecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5DD5EF212585E700913230 /* RecordVC.m */; };
+		0B5DD5F221258B1900913230 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5DD5F121258B1800913230 /* 1.png */; };
+		0B75BFBE2142CF9400022EBA /* CustomShowRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B75BFBD2142CF9400022EBA /* CustomShowRecordVC.m */; };
+		653223422108115C00C41AA7 /* UIButton+ImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 653223412108115C00C41AA7 /* UIButton+ImagePosition.m */; };
 		658D68A320FEE93200B42214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 658D68A220FEE93200B42214 /* AppDelegate.m */; };
 		658D68A620FEE93200B42214 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 658D68A520FEE93200B42214 /* ViewController.m */; };
 		658D68A920FEE93200B42214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658D68A720FEE93200B42214 /* Main.storyboard */; };
@@ -35,14 +41,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B5DD5E521253C6E00913230 /* RecordWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordWindow.h; sourceTree = "<group>"; };
+		0B5DD5E621253C6E00913230 /* RecordWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordWindow.m; sourceTree = "<group>"; };
+		0B5DD5E821253D1200913230 /* RecordTimerBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordTimerBtn.h; sourceTree = "<group>"; };
+		0B5DD5E921253D1200913230 /* RecordTimerBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordTimerBtn.m; sourceTree = "<group>"; };
+		0B5DD5EE212585E700913230 /* RecordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordVC.h; sourceTree = "<group>"; };
+		0B5DD5EF212585E700913230 /* RecordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordVC.m; sourceTree = "<group>"; };
+		0B5DD5F121258B1800913230 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		0B75BFBC2142CF9400022EBA /* CustomShowRecordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomShowRecordVC.h; sourceTree = "<group>"; };
+		0B75BFBD2142CF9400022EBA /* CustomShowRecordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomShowRecordVC.m; sourceTree = "<group>"; };
+		0BA03E5921417390000FAD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BA03E5A21417390000FAD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BA03E5B214173A2000FAD21 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		0BA03E5C214173A3000FAD21 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		653223402108115C00C41AA7 /* UIButton+ImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImagePosition.h"; sourceTree = "<group>"; };
+		653223412108115C00C41AA7 /* UIButton+ImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImagePosition.m"; sourceTree = "<group>"; };
 		658D689E20FEE93200B42214 /* RccordTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RccordTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		658D68A120FEE93200B42214 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		658D68A220FEE93200B42214 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		658D68A420FEE93200B42214 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		658D68A520FEE93200B42214 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		658D68A820FEE93200B42214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		658D68AA20FEE93900B42214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		658D68AD20FEE93900B42214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		658D68AF20FEE93900B42214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		658D68B020FEE93900B42214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		658D68B620FEE93900B42214 /* RccordTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RccordTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +100,7 @@
 		658D689520FEE93200B42214 = {
 			isa = PBXGroup;
 			children = (
+				0B5DD5F121258B1800913230 /* 1.png */,
 				658D68A020FEE93200B42214 /* RccordTest */,
 				658D68B920FEE93900B42214 /* RccordTestTests */,
 				658D68C420FEE93900B42214 /* RccordTestUITests */,
@@ -101,10 +121,20 @@
 		658D68A020FEE93200B42214 /* RccordTest */ = {
 			isa = PBXGroup;
 			children = (
+				653223402108115C00C41AA7 /* UIButton+ImagePosition.h */,
+				653223412108115C00C41AA7 /* UIButton+ImagePosition.m */,
 				658D68A120FEE93200B42214 /* AppDelegate.h */,
 				658D68A220FEE93200B42214 /* AppDelegate.m */,
 				658D68A420FEE93200B42214 /* ViewController.h */,
 				658D68A520FEE93200B42214 /* ViewController.m */,
+				0B5DD5EE212585E700913230 /* RecordVC.h */,
+				0B5DD5EF212585E700913230 /* RecordVC.m */,
+				0B5DD5E521253C6E00913230 /* RecordWindow.h */,
+				0B5DD5E621253C6E00913230 /* RecordWindow.m */,
+				0B5DD5E821253D1200913230 /* RecordTimerBtn.h */,
+				0B5DD5E921253D1200913230 /* RecordTimerBtn.m */,
+				0B75BFBC2142CF9400022EBA /* CustomShowRecordVC.h */,
+				0B75BFBD2142CF9400022EBA /* CustomShowRecordVC.m */,
 				658D68A720FEE93200B42214 /* Main.storyboard */,
 				658D68AA20FEE93900B42214 /* Assets.xcassets */,
 				658D68AC20FEE93900B42214 /* LaunchScreen.storyboard */,
@@ -236,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				658D68AE20FEE93900B42214 /* LaunchScreen.storyboard in Resources */,
+				0B5DD5F221258B1900913230 /* 1.png in Resources */,
 				658D68AB20FEE93900B42214 /* Assets.xcassets in Resources */,
 				658D68A920FEE93200B42214 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653223422108115C00C41AA7 /* UIButton+ImagePosition.m in Sources */,
+				0B5DD5F0212585E700913230 /* RecordVC.m in Sources */,
 				658D68A620FEE93200B42214 /* ViewController.m in Sources */,
+				0B75BFBE2142CF9400022EBA /* CustomShowRecordVC.m in Sources */,
 				658D68B120FEE93900B42214 /* main.m in Sources */,
+				0B5DD5E721253C6E00913230 /* RecordWindow.m in Sources */,
 				658D68A320FEE93200B42214 /* AppDelegate.m in Sources */,
+				0B5DD5EA21253D1200913230 /* RecordTimerBtn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +339,8 @@
 		658D68A720FEE93200B42214 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				658D68A820FEE93200B42214 /* Base */,
+				0BA03E5921417390000FAD21 /* Base */,
+				0BA03E5B214173A2000FAD21 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -311,7 +348,8 @@
 		658D68AC20FEE93900B42214 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				658D68AD20FEE93900B42214 /* Base */,
+				0BA03E5A21417390000FAD21 /* Base */,
+				0BA03E5C214173A3000FAD21 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -433,14 +471,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8H9WDB34Q;
 				INFOPLIST_FILE = RccordTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bc.com.RccordTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylh.recordTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -449,14 +491,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8H9WDB34Q;
 				INFOPLIST_FILE = RccordTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bc.com.RccordTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylh.recordTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
